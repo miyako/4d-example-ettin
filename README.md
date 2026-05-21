@@ -32,3 +32,11 @@ If ($batch.success)
 	+"should score high:"+String($cosineSimilarity2))
 End if
 ```
+
+## Ettin
+
+<img width="480" height="175" alt="Screenshot 2026-05-22 at 8 41 18" src="https://github.com/user-attachments/assets/9df87649-a1ef-479e-8202-7c31a7f13508" />
+
+## BGE M3
+
+<img width="480" height="175" alt="Screenshot 2026-05-22 at 8 42 44" src="https://github.com/user-attachments/assets/bb9b12f5-d5d3-48aa-b08c-ca7db616789d" />
