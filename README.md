@@ -1,4 +1,4 @@
-## [jhu-clsp/ettin-encoder-400m](https://huggingface.co/jhu-clsp/ettin-encoder-400m)
+## [jhu-clsp/ettin-encoder-1b](https://huggingface.co/jhu-clsp/ettin-encoder-1b)
 
 |`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
 |-:|-:|-:|-:|
@@ -33,7 +33,11 @@ If ($batch.success)
 End if
 ```
 
-## Ettin
+## Ettin 1b
+
+<img width="480" height="175" alt="Screenshot 2026-05-22 at 8 47 34" src="https://github.com/user-attachments/assets/d69f0d33-1e70-4927-8879-6edae8879d34" />
+
+## Ettin 400m
 
 <img width="480" height="175" alt="Screenshot 2026-05-22 at 8 41 18" src="https://github.com/user-attachments/assets/9df87649-a1ef-479e-8202-7c31a7f13508" />
 
