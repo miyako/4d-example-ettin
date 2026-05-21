@@ -16,10 +16,6 @@ Case of
 		
 	Else 
 		
-/*
-この分岐はアプリケーションプロセスで実行されます。
-*/
-		
 		var $huggingface : cs:C1710.event.huggingface
 		$huggingface:=$params.huggingfaces.huggingfaces.first()
 		$file:=$huggingface.folder.file($huggingface[($huggingface.name#"") ? "name" : "path"])
@@ -32,7 +28,7 @@ End if
 
 Case of 
 	: ($params.embeddings)
-		ALERT:C41("Embeddings model loaded!")
+		//ALERT("Embeddings model loaded!")
 	: ($params.reranking)
 		ALERT:C41("Reranker model loaded!")
 	Else 

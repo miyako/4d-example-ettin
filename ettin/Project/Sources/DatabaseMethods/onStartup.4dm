@@ -70,7 +70,7 @@ $path:="bge-m3-Q8_0.gguf"
 $URL:="keisuke-miyako/bge-m3-gguf-q8_0"
 
 $max_position_embeddings:=1024
-$pooling:="mean"
+$pooling:="cls"
 $batch_size:=$max_position_embeddings
 $ubatch_size:=$max_position_embeddings
 $n_gpu_layers:=-1
