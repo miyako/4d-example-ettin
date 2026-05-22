@@ -1,8 +1,13 @@
 ## [jhu-clsp/ettin-encoder-1b](https://huggingface.co/jhu-clsp/ettin-encoder-1b)
 
-|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
-|-:|-:|-:|-:|
-|`7999`|`1792`|`28`|`mean`
+|`size`|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
+||-:|-:|-:|-:|
+|`1b`|`7999`|`1792`|`28`|`mean`
+|`400m`|`7999`|`1024`|`28`|`mean`
+|`150m`|`7999`|`768`|`22`|`mean`
+|`68m`|`7999`|`512`|`19`|`mean`
+|`32m`|`7999`|`384`|`10`|`mean`
+|`17m`|`7999`|`256`|`7`|`mean`
 
 ```4d
 var $llama : cs.AIKit.OpenAI
