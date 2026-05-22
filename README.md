@@ -2,7 +2,7 @@
 
 |`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
 |-:|-:|-:|-:|
-|`7999`|`1024`|`28`|`mean`
+|`7999`|`1792`|`28`|`mean`
 
 ```4d
 var $llama : cs.AIKit.OpenAI
