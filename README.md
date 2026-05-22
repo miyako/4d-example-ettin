@@ -1,7 +1,7 @@
 ## [jhu-clsp/ettin-encoder-1b](https://huggingface.co/jhu-clsp/ettin-encoder-1b)
 
 |`size`|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
-||-:|-:|-:|-:|
+|-|-:|-:|-:|-:|
 |`1b`|`7999`|`1792`|`28`|`mean`
 |`400m`|`7999`|`1024`|`28`|`mean`
 |`150m`|`7999`|`768`|`22`|`mean`
